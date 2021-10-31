@@ -64,4 +64,6 @@ let g:airline_symbols.dirty='⚡'
 let g:airline_powerline_fonts = 1
 let g:airline_symbols_ascii = 1
 
+autocmd VimEnter * NERDTree
+nnoremap <C-n> :NERDTreeToggle<CR>
 syntax on
