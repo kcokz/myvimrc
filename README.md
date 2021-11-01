@@ -5,6 +5,9 @@
 Select `Source Code Pro for Powerline 14 pt.`
 ## 3. Overwrite '~/.vimrc'
 [https://github.com/kcokz/myvimrc/blob/master/.vimrc](https://github.com/kcokz/myvimrc/blob/master/.vimrc)
+```
+curl https://github.com/kcokz/myvimrc/blob/master/.vimrc --output ~/.vimrc
+```
 ## 4. Run Vundle to install plugin
 ```
 vi ~/.vimrc
