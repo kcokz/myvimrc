@@ -46,7 +46,13 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Common
 set t_Co=256
+syntax on
+
+" vim-airline
+set hlsearch
 if !exists('g:airline_symbols')
 let g:airline_symbols = {}
 endif
@@ -64,6 +70,12 @@ let g:airline_symbols.dirty='⚡'
 let g:airline_powerline_fonts = 1
 let g:airline_symbols_ascii = 1
 
-autocmd VimEnter * NERDTree
+" NERDTree
+autocmd VimEnter * NERDTree | wincmd p
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+
 nnoremap <C-n> :NERDTreeToggle<CR>
-syntax on
