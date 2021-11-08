@@ -49,7 +49,12 @@ filetype plugin indent on    " required
 
 " Common
 set t_Co=256
+set mouse=a
 syntax on
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
 
 " vim-airline
 set hlsearch
