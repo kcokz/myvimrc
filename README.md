@@ -7,6 +7,8 @@ Select `Source Code Pro for Powerline 14 pt.`
 [https://github.com/kcokz/myvimrc/blob/master/.vimrc](https://github.com/kcokz/myvimrc/blob/master/.vimrc)
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+```
 curl https://raw.githubusercontent.com/kcokz/myvimrc/master/.vimrc --output ~/.vimrc
 ```
 ### 4. Run Vundle to install plugin
