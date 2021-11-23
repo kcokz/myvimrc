@@ -6,6 +6,7 @@ Select `Source Code Pro for Powerline 14 pt.`
 ### 3. Overwrite '~/.vimrc'
 [https://github.com/kcokz/myvimrc/blob/master/.vimrc](https://github.com/kcokz/myvimrc/blob/master/.vimrc)
 ```
+# Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 ```
