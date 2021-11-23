@@ -17,3 +17,5 @@ vi ~/.vimrc
 :source %
 :PluginInstall
 ```
+### 5. Change CapsLock to point to Esc
+Do this in mac is to change "Keyboard shortcut" in "System Preference"
