@@ -1,4 +1,5 @@
 ## My vim setup note
+## Mac
 ### 1. Install powerline fonts
 [https://github.com/powerline/fonts](https://github.com/powerline/fonts)
 ### 2. Select font for terminal
